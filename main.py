@@ -1,5 +1,10 @@
 from modules.classes import *
 
+employees = [
+    Manager("Елена", 24244),
+    Developer("Виталий", 2, 3),
+    Intern("Александр", 70000)
+]
 
-dog = Dog("Гавс", 4)
-print(dog.info, dog.animal_sound())
+for emp in employees:
+    print(emp)
