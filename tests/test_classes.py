@@ -1,7 +1,6 @@
 from unittest import TestCase, main
 from modules.classes import Manager, Developer, Trainee
 
-
 class TestClasses(TestCase):
     def test_manager(self):
         managers = [
