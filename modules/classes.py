@@ -127,10 +127,10 @@ class Developer(Employee):
         return self.salary + (self.salary * 0.1) + (1000 * self.__projects_completed)
 
 
-class Intern(Employee):
+class Trainee(Employee):
     """
     Данный класс создает информацию о сотруднике
-    с должностью Интерн.
+    с должностью Стажер.
     """
     @property
     def calculate_salary(self):
