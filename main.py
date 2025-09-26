@@ -1,10 +1,10 @@
 from modules.classes import *
 
 employees = [
-    Manager("Елена", 24244),
-    Developer("Виталий", 2, 3),
-    Intern("Александр", 70000)
+    Manager("Андрей", 130000),
+    Developer("Егор", 234000, 2),
+    Trainee("Кирилл", 67000)
 ]
 
-for emp in employees:
-    print(emp)
+for employee in employees:
+    print(employee)
